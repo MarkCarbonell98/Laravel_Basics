@@ -32,7 +32,7 @@ return [
     */
 
     'connections' => [
-
+        // sqlite works with files, not pieces of info.
         'sqlite' => [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
